@@ -1,5 +1,4 @@
 import calendar
-from cgitb import reset
 from colorama import *
 init()
 
