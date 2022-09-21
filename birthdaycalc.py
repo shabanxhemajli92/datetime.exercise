@@ -9,8 +9,8 @@ age_years=(todays_date-some_objct)
 print(age_years)
 days=int(input("Enter the days Day:"))
 
-years = days / 365
-weeks = days / 7
-months = days / 30
+years = days // 365
+weeks = days // 7
+months = days // 30
 
-print("Your duration in the world so far is:",years,"years",weeks,"weeks","and",months,"since you came her.")
+print("Your duration in the world so far is:",years,"years",weeks,"weeks","and",months,"months since you came here.")
